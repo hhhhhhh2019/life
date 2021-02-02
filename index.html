@@ -12,14 +12,15 @@
             }
 
             canvas {
-                background: linear-gradient(to bottom, #ffff00, #0000ff);
+                background: white;
                 float: left;
+                width: 75%;
             }
 
             button {
                 float: left;
                 margin-left: 1%;
-                width: 20%;
+                width: 30%;
                 font-size: 100%;
                 font-weight: bold;
             }
@@ -39,5 +40,6 @@
     </head>
     <body>
         <button onclick="draw_type = 1 - draw_type">сменить режим рисования</button>
+        <button onclick="fast_mode = !fast_mode">быстрый режим</button>
     </body>
 </html>
